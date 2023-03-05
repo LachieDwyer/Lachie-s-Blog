@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="style.css" rel="stylesheet">
+<script src="sketch.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar-inverse myNavBar">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" navbar-toggle="collapse" data-target="#myNavBar">
+    
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    </button>
+    
+    <a class="navbar-brand" href="#">Lachie</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavBar">
+    <ul class="nav navbar-nav">
+    <li >
+    <a href="#movies">Movies</a>
+    </li>
+    <li >
+    <a href="#travel">Travel</a>
+    </li>
+    <li >
+    <a href="#books">Books</a>
+    </li>
+    <li >
+    <a href="#environment">Environment</a>
+    </li>
+    <li>
+    <a href="#contact">Contact</a>
+    </li>
+    </ul>
+    </div>
+    </nav>
+
+    <div class="container">
+    <h2 class="text-capitalize" id="travel">
+    places must visit
+    </h2>
+    <center>
+        <div class="travelMain">
+        <img class="img-responsive" src="harborbridge.jpg">
+
+        <h4 class="text-capitalize"><kbd>Sydney Harbor Bridge</kbd></h4>
+
+        <h5 class="text-success text-left text-capitalize">I had visited in August 2016</h5>
+
+        <p class="text-muted text-left">The Sydney Harbour Bridge is a steel through arch bridge in Sydney, spanning Sydney Harbour from the central business district (CBD) to the North Shore. The view of the bridge, the harbour, and the nearby Sydney Opera House is widely regarded as an iconic image of Sydney, and of Australia itself. Nicknamed "The Coathanger" because of its arch-based design, the bridge carries rail, vehicular, bicycle and pedestrian traffic.</p>
+        </div>
+    </center>
+
+    <center>
+        <div class="travelMain">
+            <img class="img-responsive" src="panoramatrack.jpg">
+
+            <h4 class="text-capitalize"><kbd>Mt Panorama Race Track</kbd></h4>
+
+            <h5 class="text-success text-left text-capitalize">I had visited in September 2015</h5>
+
+            <p class="text-muted text-left">Mount Panorama Circuit is a motor racing track located in Bathurst, New South Wales, Australia. It is situated on Mount Panorama (Wahluu)[2] and is best known as the home of the Bathurst 1000 motor race held each October, and the Bathurst 12 Hour event held each February. The track is a 6.213 km (3.861 mi) long street circuit, which is used as a public road when no racing events are being run, with many residences which can only be accessed from the circuit.</p>
+        </div>
+    </center>
+
+    <div class="page-header" id="movies">
+   <h2 class="text-capitalize">Review on the Movies</h2>
+    </div>
+    
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#avengers-endgame">
+        <span class="glyphicon glyphicon-film"></span>
+        Avengers Endgame
+        <i class="fa fa-sort-desc"></i>
+    </div> 
+    <div id="avengers-endgame" class="collapse">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+    <img src="movie1.jpg" class="img-responsive img-thumbnail">
+    </div>
+    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+    <h5 class="text-success text-left text-capitalize">Excellent film to watch
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+    </h5>
+    <p>The review aggregator Rotten Tomatoes reported an approval rating of 94%, with an average score of 8.2/10, based on 555 reviews. The website's critical consensus reads, "Exciting, entertaining, and emotionally impactful, Avengers: Endgame does whatever it takes to deliver a satisfying finale to Marvel's epic Infinity Saga."[186] Metacritic, which uses a weighted average, assigned the film a score of 78 out of 100 based on 57 critics, indicating "generally favorable reviews".[187] Audiences polled by CinemaScore gave the film a rare "A+" grade on an A+ to F scale, the third Marvel film to earn the score after The Avengers and Black Panther (2018), and those at PostTrak gave the film 5 out of 5 stars and an 85% "definite recommend".[168]</p>
+    </div>
+    </div>
+
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#lion_king">
+        <span class="glyphicon glyphicon-film"></span>
+        The Lion King
+        <i class="fa fa-sort-desc"></i>
+    </div>
+    <div id="lion_king" class="collapse">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+    <img src="movie2.jpg" class="img-responsive img-thumbnail">
+    </div>
+    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+        <h5 class="text-success text-left text-capitalize">Excellent Film, would recommend
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        </h5>
+        <p>Set in a kingdom of lions in Africa, The Lion King tells the story of Simba (Swahili for lion), a lion cub who is to succeed his father, Mufasa, as King of the Pride Lands; however, after his paternal uncle Scar kills Mufasa to seize the throne, Simba is tricked into believing he was responsible for his father's death and flees into exile. After growing up in the company of the carefree outcasts Timon and Pumbaa, Simba receives valuable perspective from his childhood friend, Nala, and his shaman, Rafiki, before returning to challenge Scar to end his tyranny and take his place in the Circle of Life as the rightful king.</p>
+    </div>
+    </div>
+
+<div id="books col-lg-12 col-md-12 col-sm-12 col-xs-12" class="page_header">
+<h2 class="text-capitalize">Books</h2>
+<div>
+<h3>Bill Gates</h3>
+<h4 style="line-height:3">
+    <mark>
+        <sup>
+            <i class="fa fa-quote-left"></i>
+        </sup>
+        Reading is still the main way I learn new things and test my knowledge
+        <sup>
+            <i class="fa fa-quote-right"></i>
+        </sup>
+    </mark>
+</h4>
+</div>
+<div class="page_header">
+<h2 class="text-capitalize">List of Books</h2>
+
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#Space_Encyclopedia">
+    <img src="book1.jpg" id="space_encyclopedia">
+    <p class="text-primary">First Space Encyclopedia</p>
+</div>
+
+<div class="modal fade" id="Space_Encyclopedia">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal"> &times; </button>
+<h4 class="modal-title">My first space Encyclopedia</h4>
+</div>
+
+
+<div class="modal-body">
+<center><img class="img-responsive" src="book1.jpg"></center>
+<p>Zoom off into the galaxy and investigate all the planets, from Earth to Mars with First Space Encyclopaedia. Packed full of stunning photography, quizzes and amazing facts, children will become space experts in no time. Covering everything from observatories and rockets, to the solar system and the death of stars, children will discover all about space and space travel.<br></p>
+<a href="https://www.amazon.in/First-Space-Encyclopaedia-DK/dp/0241293421/ref=sr_1_6?crid=176WU3JFDK2JP&keywords=books+on+space+for+kids&qid=1575444723&sprefix=books+on%2Caps%2C285&sr=8-6">
+<b>BEST BUY LINK</b> </a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-3 cold-md-col-sm col-xs-6 book" data-toggle="modal" data-target="#Cat_Hat">
+    <img src="book2.png" id="Cat_in_the_hat" width="200" height="270">
+    <p class=text-primary>Cat In The Hat</p>
+</div>
+
+<div class="modal fade" id="Cat_Hat">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+<h4 class="modal-title">Cat in the Hat</h4>
+</div>
+<div class="modal-body">
+<center><img src="book2.png" class="img-responsive"></center>
+<p>The Cat in the Hat is a 1957 children's book written and illustrated by the American author Theodor Geisel, using the pen name Dr. Seuss. The story centers on a tall anthropomorphic cat who wears a red and white-striped top hat and a red bow tie. The Cat shows up at the house of Sally and her brother one rainy day when their mother is away. Despite the repeated objections of the children's fish, the Cat shows the children a few of his tricks in an attempt to entertain them. In the process, he and his companions, Thing One and Thing Two, wreck the house. As the children and the fish become more alarmed, the Cat produces a machine that he uses to clean everything up and disappears just before the children's mother comes home.</p>
+<a href="https://www.amazon.com.au/Cat-Hat-Dr-Seuss/dp/000820151X/ref=asc_df_000820151X/?tag=googleshopdsk-22&linkCode=df0&hvadid=341772716290&hvpos=&hvnetw=g&hvrand=8150438547320997849&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1000339&hvtargid=pla-422870914556&psc=1">
+<b>BEST BUY LINK</b> </a>
+</div>
+</div>
+</div>
+</div>
+
+<h2>Contact</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d362549.8135297049!2d152.81997458424058!3d-27.45513888345474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b91579aac93d233%3A0x402a35af3deaf40!2sBrisbane%20QLD!5e0!3m2!1sen!2sau!4v1677994057633!5m2!1sen!2sau" width="1200" height="900" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div><!--Container Close-->
+
+
+</body>
+</html>

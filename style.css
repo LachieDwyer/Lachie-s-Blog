@@ -1,0 +1,36 @@
+.travelMain{
+    padding-left: 0px;
+    padding-right: 0px;
+    float:none;
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+
+.travelMain img{
+    width: 100%;
+}
+
+.travelMain h5, .travelMain p{
+margin-left: 20px;
+}
+
+.movie_head{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius:10px;
+    margin-bottom: 15px;
+    width:100%;
+    display: inline-block;
+}
+
+.movie_head i{
+    float:right
+}
+
+.movie_text span{
+    color:orange
+}
+.modal-body{
+text-align:center
+
+}
